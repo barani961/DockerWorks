@@ -302,3 +302,6 @@ docker cp → copies files between host and container
 target/NAME_OF_JAR.jar → location of the compiled JAR file
 
 CONTAINER_NAME:/tmp → destination inside the container
+
+
+docker exec  boring_chandrasekhar ls /tmp -> list all dir in tmp from an image boring_chandra , see im using  eclipse-temurin:21-jdk-alpine
